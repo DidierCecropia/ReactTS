@@ -132,7 +132,7 @@ const TableComponent = () => {
             disabled={currentPage === 1}
             onClick={() => handlePageChange(currentPage - 1)}
           >
-            Anterior
+            Previous
           </Button>
         </Col>
         <Col className="text-center">{pageIndicator}</Col>
@@ -142,7 +142,7 @@ const TableComponent = () => {
             disabled={currentPage === totalPages}
             onClick={() => handlePageChange(currentPage + 1)}
           >
-            Siguiente
+            Next
           </Button>
         </Col>
       </Row>
